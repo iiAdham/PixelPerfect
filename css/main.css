@@ -27,10 +27,14 @@ textarea:focus, input:focus{
         position: fixed;
         right: 25px;
         bottom:20px;
-        color: var(--maincolor);
-        font-size: 30px;
+        color: white;
+        background-color: var(--maincolor);
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 20px;
         cursor: pointer;
         transition: all 1s;
+        z-index: 99999;
         &:hover{
             color: var(--seccolor);
         }
