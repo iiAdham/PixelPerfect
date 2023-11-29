@@ -29,9 +29,9 @@ textarea:focus, input:focus{
         bottom:20px;
         color: white;
         background-color: var(--maincolor);
-        padding: 5px;
+        padding: 5px 10px;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 17px;
         cursor: pointer;
         transition: all 1s;
         z-index: 99999;
